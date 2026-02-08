@@ -1,0 +1,24 @@
+{
+    "change_filament_gcode": "M600",
+    "from": "User",
+    "inherits": "Voron 2.4 350 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_max_acceleration_extruding": [
+        "35000",
+        "20000"
+    ],
+    "machine_max_acceleration_x": [
+        "35000",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "35000",
+        "20000"
+    ],
+    "machine_start_gcode": "print_start BED_TEMP=[bed_temperature_initial_layer_single] EXTRUDER_TEMP=[nozzle_temperature_initial_layer] CHAMBER_TEMP=[chamber_temperature] \nSET_Z_FROM_GCODE CURR_BED_TYPE=\"{curr_bed_type}\" FILAMENT_TYPE=\"{filament_type[0]}\"\n",
+    "name": "Voron 2.4 350 0.4 nozzle - Copy",
+    "print_host": "192.168.0.29",
+    "printer_settings_id": "Voron 2.4 350 0.4 nozzle - Copy",
+    "support_multi_bed_types": "1",
+    "version": "2.3.0.3"
+}
