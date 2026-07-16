@@ -1,0 +1,16 @@
+{
+    "bottom_shell_layers": "5",
+    "counterbore_hole_bridging": "partiallybridge",
+    "elefant_foot_compensation": "0.2",
+    "from": "User",
+    "inherits": "0.20mm Standard @BBL X1C",
+    "is_custom_defined": "0",
+    "name": "0.20mm Standard @BBL X1C - Copy",
+    "print_settings_id": "0.20mm Standard @BBL X1C - Copy",
+    "sparse_infill_density": "40%",
+    "sparse_infill_pattern": "grid",
+    "version": "2.0.0.54",
+    "wall_generator": "arachne",
+    "wall_loops": "4",
+    "wall_sequence": "inner-outer-inner wall"
+}
